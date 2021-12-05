@@ -1,0 +1,41 @@
+.todolist {
+    background: #343a40;
+    color: #fff;
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 2rem;
+    h1, h3 {
+        font-weight: 300;
+    }
+
+    .addTask {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 5px;
+    }
+
+    input, button {
+        padding: 5px;
+    }
+
+    form {
+        flex: 1 1 25rem;
+        input {
+            width: 100%;
+        }
+    }
+
+    button {
+        background: #343a40;
+        border: 1px solid #fff;
+        margin-left: 10px;
+        color: #fff;
+        transition: all .3s linear;
+
+        &:hover {
+            color: #343a40;
+            background: rgb(231, 228, 228);
+            border: 1px solid #343a40;
+        }   
+    }
+}
